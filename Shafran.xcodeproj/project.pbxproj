@@ -1,0 +1,522 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE2806EC1D44AF44007FE403 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2806EB1D44AF44007FE403 /* AppDelegate.swift */; };
+		CE2806EE1D44AF44007FE403 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2806ED1D44AF44007FE403 /* ViewController.swift */; };
+		CE2806F11D44AF44007FE403 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE2806EF1D44AF44007FE403 /* Main.storyboard */; };
+		CE2806F41D44AF44007FE403 /* Shafran.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CE2806F21D44AF44007FE403 /* Shafran.xcdatamodeld */; };
+		CE2806F61D44AF44007FE403 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE2806F51D44AF44007FE403 /* Assets.xcassets */; };
+		CE2806F91D44AF44007FE403 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE2806F71D44AF44007FE403 /* LaunchScreen.storyboard */; };
+		CE2807041D44AF45007FE403 /* ShafranTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2807031D44AF45007FE403 /* ShafranTests.swift */; };
+		CE28070F1D44AF45007FE403 /* ShafranUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE28070E1D44AF45007FE403 /* ShafranUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CE2807001D44AF45007FE403 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE2806E01D44AF44007FE403 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE2806E71D44AF44007FE403;
+			remoteInfo = Shafran;
+		};
+		CE28070B1D44AF45007FE403 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE2806E01D44AF44007FE403 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE2806E71D44AF44007FE403;
+			remoteInfo = Shafran;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CE2806E81D44AF44007FE403 /* Shafran.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Shafran.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE2806EB1D44AF44007FE403 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CE2806ED1D44AF44007FE403 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CE2806F01D44AF44007FE403 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CE2806F31D44AF44007FE403 /* Shafran.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Shafran.xcdatamodel; sourceTree = "<group>"; };
+		CE2806F51D44AF44007FE403 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CE2806F81D44AF44007FE403 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CE2806FA1D44AF44007FE403 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE2806FF1D44AF45007FE403 /* ShafranTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShafranTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE2807031D44AF45007FE403 /* ShafranTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShafranTests.swift; sourceTree = "<group>"; };
+		CE2807051D44AF45007FE403 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE28070A1D44AF45007FE403 /* ShafranUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShafranUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE28070E1D44AF45007FE403 /* ShafranUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShafranUITests.swift; sourceTree = "<group>"; };
+		CE2807101D44AF45007FE403 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE2806E51D44AF44007FE403 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE2806FC1D44AF45007FE403 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE2807071D44AF45007FE403 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CE2806DF1D44AF44007FE403 = {
+			isa = PBXGroup;
+			children = (
+				CE2806EA1D44AF44007FE403 /* Shafran */,
+				CE2807021D44AF45007FE403 /* ShafranTests */,
+				CE28070D1D44AF45007FE403 /* ShafranUITests */,
+				CE2806E91D44AF44007FE403 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CE2806E91D44AF44007FE403 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE2806E81D44AF44007FE403 /* Shafran.app */,
+				CE2806FF1D44AF45007FE403 /* ShafranTests.xctest */,
+				CE28070A1D44AF45007FE403 /* ShafranUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE2806EA1D44AF44007FE403 /* Shafran */ = {
+			isa = PBXGroup;
+			children = (
+				CE2806EB1D44AF44007FE403 /* AppDelegate.swift */,
+				CE2806ED1D44AF44007FE403 /* ViewController.swift */,
+				CE2806EF1D44AF44007FE403 /* Main.storyboard */,
+				CE2806F51D44AF44007FE403 /* Assets.xcassets */,
+				CE2806F71D44AF44007FE403 /* LaunchScreen.storyboard */,
+				CE2806FA1D44AF44007FE403 /* Info.plist */,
+				CE2806F21D44AF44007FE403 /* Shafran.xcdatamodeld */,
+			);
+			path = Shafran;
+			sourceTree = "<group>";
+		};
+		CE2807021D44AF45007FE403 /* ShafranTests */ = {
+			isa = PBXGroup;
+			children = (
+				CE2807031D44AF45007FE403 /* ShafranTests.swift */,
+				CE2807051D44AF45007FE403 /* Info.plist */,
+			);
+			path = ShafranTests;
+			sourceTree = "<group>";
+		};
+		CE28070D1D44AF45007FE403 /* ShafranUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CE28070E1D44AF45007FE403 /* ShafranUITests.swift */,
+				CE2807101D44AF45007FE403 /* Info.plist */,
+			);
+			path = ShafranUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE2806E71D44AF44007FE403 /* Shafran */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE2807131D44AF45007FE403 /* Build configuration list for PBXNativeTarget "Shafran" */;
+			buildPhases = (
+				CE2806E41D44AF44007FE403 /* Sources */,
+				CE2806E51D44AF44007FE403 /* Frameworks */,
+				CE2806E61D44AF44007FE403 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Shafran;
+			productName = Shafran;
+			productReference = CE2806E81D44AF44007FE403 /* Shafran.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CE2806FE1D44AF45007FE403 /* ShafranTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE2807161D44AF45007FE403 /* Build configuration list for PBXNativeTarget "ShafranTests" */;
+			buildPhases = (
+				CE2806FB1D44AF45007FE403 /* Sources */,
+				CE2806FC1D44AF45007FE403 /* Frameworks */,
+				CE2806FD1D44AF45007FE403 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE2807011D44AF45007FE403 /* PBXTargetDependency */,
+			);
+			name = ShafranTests;
+			productName = ShafranTests;
+			productReference = CE2806FF1D44AF45007FE403 /* ShafranTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CE2807091D44AF45007FE403 /* ShafranUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE2807191D44AF45007FE403 /* Build configuration list for PBXNativeTarget "ShafranUITests" */;
+			buildPhases = (
+				CE2807061D44AF45007FE403 /* Sources */,
+				CE2807071D44AF45007FE403 /* Frameworks */,
+				CE2807081D44AF45007FE403 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE28070C1D44AF45007FE403 /* PBXTargetDependency */,
+			);
+			name = ShafranUITests;
+			productName = ShafranUITests;
+			productReference = CE28070A1D44AF45007FE403 /* ShafranUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE2806E01D44AF44007FE403 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = user;
+				TargetAttributes = {
+					CE2806E71D44AF44007FE403 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					CE2806FE1D44AF45007FE403 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = CE2806E71D44AF44007FE403;
+					};
+					CE2807091D44AF45007FE403 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = CE2806E71D44AF44007FE403;
+					};
+				};
+			};
+			buildConfigurationList = CE2806E31D44AF44007FE403 /* Build configuration list for PBXProject "Shafran" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CE2806DF1D44AF44007FE403;
+			productRefGroup = CE2806E91D44AF44007FE403 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE2806E71D44AF44007FE403 /* Shafran */,
+				CE2806FE1D44AF45007FE403 /* ShafranTests */,
+				CE2807091D44AF45007FE403 /* ShafranUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE2806E61D44AF44007FE403 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE2806F91D44AF44007FE403 /* LaunchScreen.storyboard in Resources */,
+				CE2806F61D44AF44007FE403 /* Assets.xcassets in Resources */,
+				CE2806F11D44AF44007FE403 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE2806FD1D44AF45007FE403 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE2807081D44AF45007FE403 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE2806E41D44AF44007FE403 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE2806EE1D44AF44007FE403 /* ViewController.swift in Sources */,
+				CE2806EC1D44AF44007FE403 /* AppDelegate.swift in Sources */,
+				CE2806F41D44AF44007FE403 /* Shafran.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE2806FB1D44AF45007FE403 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE2807041D44AF45007FE403 /* ShafranTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE2807061D44AF45007FE403 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE28070F1D44AF45007FE403 /* ShafranUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CE2807011D44AF45007FE403 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE2806E71D44AF44007FE403 /* Shafran */;
+			targetProxy = CE2807001D44AF45007FE403 /* PBXContainerItemProxy */;
+		};
+		CE28070C1D44AF45007FE403 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE2806E71D44AF44007FE403 /* Shafran */;
+			targetProxy = CE28070B1D44AF45007FE403 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CE2806EF1D44AF44007FE403 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE2806F01D44AF44007FE403 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CE2806F71D44AF44007FE403 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE2806F81D44AF44007FE403 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CE2807111D44AF45007FE403 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CE2807121D44AF45007FE403 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE2807141D44AF45007FE403 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Shafran/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Progen.Shafran;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CE2807151D44AF45007FE403 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Shafran/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Progen.Shafran;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CE2807171D44AF45007FE403 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ShafranTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Progen.ShafranTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Shafran.app/Shafran";
+			};
+			name = Debug;
+		};
+		CE2807181D44AF45007FE403 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ShafranTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Progen.ShafranTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Shafran.app/Shafran";
+			};
+			name = Release;
+		};
+		CE28071A1D44AF45007FE403 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ShafranUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Progen.ShafranUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Shafran;
+			};
+			name = Debug;
+		};
+		CE28071B1D44AF45007FE403 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ShafranUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Progen.ShafranUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Shafran;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE2806E31D44AF44007FE403 /* Build configuration list for PBXProject "Shafran" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE2807111D44AF45007FE403 /* Debug */,
+				CE2807121D44AF45007FE403 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE2807131D44AF45007FE403 /* Build configuration list for PBXNativeTarget "Shafran" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE2807141D44AF45007FE403 /* Debug */,
+				CE2807151D44AF45007FE403 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CE2807161D44AF45007FE403 /* Build configuration list for PBXNativeTarget "ShafranTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE2807171D44AF45007FE403 /* Debug */,
+				CE2807181D44AF45007FE403 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CE2807191D44AF45007FE403 /* Build configuration list for PBXNativeTarget "ShafranUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE28071A1D44AF45007FE403 /* Debug */,
+				CE28071B1D44AF45007FE403 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CE2806F21D44AF44007FE403 /* Shafran.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CE2806F31D44AF44007FE403 /* Shafran.xcdatamodel */,
+			);
+			currentVersion = CE2806F31D44AF44007FE403 /* Shafran.xcdatamodel */;
+			path = Shafran.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CE2806E01D44AF44007FE403 /* Project object */;
+}
